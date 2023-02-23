@@ -1,0 +1,263 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Unbounded', cursive;
+	background-image: href(img/background.jpg);
+}
+.background-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 50%;
+	object-fit: cover;
+	margin-top: -60px;
+}
+
+main {
+	width: 50%;
+	min-width: 600px;
+	background-color: #aaa;
+	margin: 0 auto;
+	margin-top: 60px;
+	box-shadow: 5px 5px 5px #555;
+	position: relative;
+
+}
+
+.cv {
+	height: 450px;
+	display: flex;
+}
+
+/* TARJETA DE PERFIL*/
+
+.profile {
+	width: 70%;
+	min-width: 270px;
+	background-color: #ddd;
+	text-align: center;
+}
+
+.profile-img {
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	margin-top: 10px;
+	box-shadow: 5px 5px 5px #555;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 0 auto;
+	text-shadow: 5px 5px 5px #999;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 15px;
+	margin-top: 0;
+	font-weight: lighter;
+}
+
+h3 {
+	margin:0 auto;
+	font-size: 35px;
+	font-weight: lighter;
+}
+
+
+/*TARJETAS*/
+
+.information {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.card {
+	width: 100%;
+	height: 100%;
+	max-height: 400px;
+	background-color: #ddd;
+}
+
+hr {
+	width: 70%;
+	border:1px solid #3366aa;
+}
+
+.art-info {
+	display: flex;
+	margin-top: 25px
+}
+
+.art-title{
+	display: block;
+	margin-top: 50px;
+}
+
+h4 {
+	margin: 15px 15px;
+	color: #3366aa;
+}
+
+h5 {
+	width: 40%;
+	color: #3366aa;
+	margin-left: 20px;
+}
+
+
+.info {
+	font-size: 13px;
+}
+
+.about {
+	display: block;
+}
+
+.exp-art {
+	display: block;
+	margin-top: 50px;
+}
+
+
+.experience {
+	display: none;
+}
+
+.edu-art {
+	margin-top: 50px;
+}
+
+.edu-p {
+	margin-left: 20px;
+}
+
+.education {
+	display: none;
+}
+
+.contact-art {
+	display: flex;
+}
+
+.contact-icon {
+	width: 15px;
+}
+
+.contact-p {
+	width: 60%;
+}
+
+.contact {
+	display: none;
+}
+
+.form-title {
+	width: 200px;
+	min-width: 150px;
+	height: 15px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+
+
+form {
+	width: 100%;
+	height: 50%;
+}
+
+label {
+	display: block;
+	margin-left: 20px;
+}
+
+input {
+	width: 80%;
+	height: 25px;
+	margin-left: 20px;
+}
+
+textarea {
+	width: 80%;\
+	height: 35px;
+	margin-left: 20px;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 150px;
+	height: 30px;
+	background-color: #225588;
+	color: #ddd;
+	margin: 10px auto;
+}
+
+input[type="submit"]:hover {
+	background-color: #3366aa;
+}
+
+input[type="submit"]:active {
+	background-color: #114477;
+}
+
+/* BARRA DE NAVEGACION */
+.nav {
+	display: flex;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: #3366aa;
+}
+
+.about-btn {
+	background-color: #336677;
+}
+
+li:hover {
+	background-color: #3366cc;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+li:active {
+	background-color: #336677;
+}
+.nav-btn {
+	margin-top: 5px;
+	font-size: 15px;
+	color: #ddd;
+}
+
+@keyframes cardsh {
+
+	0% {
+		opacity: 0%;
+	}
+
+	25% {
+		opacity: 25%;
+	}
+
+	50% {
+		opacity: 50%;
+	}
+
+	75% {
+		opacity: 75%;
+	}
+
+	100% {
+		opacity: 100%
+	}
+}
+
+
+/* averiguar como resaltar el campo marcado
+acomodar resposive*/

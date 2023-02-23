@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/6baa3b066f.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<img src="background.jpg" alt="background img" class="background-img">
+	<main>
+		<div class="cv">
+		<section class="profile">
+			<img src="profile-photo.jpg" alt="Profile Photo" class="profile-img">
+			<h1>Samuel James</h1>
+			<h2>WEB DEVELOPMENT</h2>
+		</section>
+
+		<section class="information">
+			<div class="about card" id="about">
+				<article class="art-title"><h4 class="about-title">ABOUT ME</h4><p class="info">I consider my self a very proactive and responsible person whit the ability to work in diferents work areas. Im also willing to learn new skills</p></article>
+				<hr>
+				<article class="art-info"><h5>AGE</h4><p>30</p></article>
+				<article class="art-info"><h5>ADDRESS</h4><p>5386 Washington Ave</p></article>
+				<article class="art-info"><h5>PHONE</h4><p>+54(0223)155123456</p></article>
+			</div>
+			<div class="experience card" id="experience">
+				<article class="exp-art"><H4 class="exp-title">EXPERIENCE</H4><p>"Software developer with experience designing, installing, testing, and maintaining software systems. Proficient in multiple platforms, languages, and embedded systems. Experience with the latest development tools and procedures. Able to effectively self-manage independent projects. Good skills of collaboration within a productive team."
+				</p></article>
+			</div>
+			<div class="education card" id="education">
+				<article class="edu-art"><h4>HIGTH SCHOOL</h4><p class="edu-p">School N° 1</p></article>
+				<article><h4>WEB DEVELOPMENT</h4><p class="edu-p">University N° 2</p></article>
+				<article><h4>WEB DESIGN</h4><p class="edu-p">HTML - CSS - Google Activate</p></article>
+				<article><h4>WEB DEVELOPMENT</h4><p class="edu-p">JavaScript - Google Activate</p></article>
+			</div>
+			<div class="contact card" id="contact">
+				<article class="contact-art"><h4 class="contact-icon"><i class="fa-solid fa-envelope"></i></h4><p class="contact-p">samueljames@example.com</p></article>
+				<article class="contact-art"><h4 class="contact-icon"><i class="fa-brands fa-linkedin"></i></h4><p class="contact-p">linkedin.com/in/SamuelJames</p></article>
+				<article class="contact-art"><h4 class="contact-icon"><i class="fa-brands fa-square-whatsapp"></i></h4><p class="contact-p">+54(0223)155123456</p></article>
+				<article class="contact-art"><h4 class="contact-icon"><i class="fa-brands fa-square-instagram"></i></h4><p class="contact-p">@SamuelJames</p></article>
+				<form action="#">
+					<h5 class="form-title">SENDME A MENSSAGE</h5>
+					<label for="name">Your name</label>
+					<input type="text" name="name" placeholder="Enter your Name"  required>
+					<label for="email">Email contact</label>
+					<input type="email" id="email" placeholder="Email address" required>
+					<label for="comment">Comment</label>
+					<textarea name="" id="comment" rows="3" placeholder="Comment here"></textarea>
+					<input type="submit" name="submit" id="submit" value="Submit">
+				</form>
+			</div>
+		</section>
+		</div>
+		<nav class="nav">
+			<li class="about-btn" id="btnAbout"><p class="nav-btn"><i class="fa-solid fa-user"></i> About</p></li>
+			<li class="experience-btn" id="btnExp"><p class="nav-btn"><i class="fa-solid fa-screwdriver-wrench"></i> Experience</p></li>
+			<li class="education-btn" id="btnEdu"><p class="nav-btn"><i class="fa-solid fa-medal"></i> Education</p></li>
+			<li class="contact-btn" id="btnCont"><p class="nav-btn"><i class="fa-sharp fa-solid fa-comment"></i> Contact</p></li>
+		</nav>
+	</main>	
+	<script src="js.js"></script>	
+</body>
+</html>
